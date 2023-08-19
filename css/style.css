@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.a-link-contato{
+    text-decoration: none;
+}
+
+/* header nav */
+
+.nav-item2 {
+    margin: 1em 1.8em 1em 1em;
+    border-radius: 2em;
+    padding: .5em;
+    border: 2px solid #BD2A2E;
+    color: #BD2A2E;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Altere a cor de fundo ao passar o mouse */
+.nav-item2:hover {
+    background-color: #BD2A2E;
+    color: white; /* Mude a cor do texto para branco ao passar o mouse */
+}
+
+/* main texto */
+
+.h1-main{
+    font-size: 3em;
+    color: #3D0D0F;
+    font-weight: bold;
+}
+
+.img-main{
+    width: 300px;
+    height: 300px;
+    border-radius: 48%;
+    border: .1em solid #BD2A2E;
+    overflow: hidden;
+}
+
+/* mensagem de recepção */
+
+.img-main-mensagem {
+    display: flex;
+    justify-content: center;
+    margin: 1em 1em;
+    padding: 1em;
+}
+
+.mensagem-main-box{
+    height: 36em;
+    border-radius: .1em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #BD2A2E;
+    width: 100%;
+    margin-top: 0;
+}
+
+.h1-main-mensagem{
+    color: white;
+    font-weight: bold;
+    padding: 2em 2em;
+}
+
+.p-main-mensagem{
+    color: white;
+    padding: 1em 1em;
+    margin: 2em 2em;
+}
+
+/* aside */
+
+aside{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8em;
+}
+
+.box-card-1{
+    margin: 2em 2em;
+    padding: 1em 1em;
+}
+.box-card-2{
+    margin: 2em 2em;
+    padding: 1em 1em;
+}
+.box-card-3{
+    margin: 2em 2em;
+    margin-bottom: 8.23em;
+    padding: 1em 1em;
+}
+.box-card-4{
+    margin: 2em 2em;
+    padding: 1em 1em;
+}
+
+.cartoes-1-aside{
+    flex-direction: row;
+}
+
+.cartoes-2-aside{
+    flex-direction: row;
+}
+
+/* footer */
+
+#footer-box{
+    margin-top: 1em;
+    background-color: #3D0D0F;
+}
+
+.icones-footer{
+    display: flex;
+    gap: .6em;
+}
