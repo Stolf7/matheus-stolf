@@ -15,6 +15,10 @@ a{
     text-decoration: none;
 }
 
+.strong{
+    font-weight: bold;
+}
+
 /* header nav */
 
 .nav-item2 {
@@ -99,14 +103,8 @@ aside{
     font-size: 3em;
 }
 
-.box-card-1{
-    margin: 2em 2em;
-    padding: 1em 1em;
-}
-
-.box-card-2{
-    margin: 2em 2em;
-    padding: 1em 1em;
+.box-card{
+    margin: 1em 1em;
 }
 
 /* footer */
@@ -123,15 +121,39 @@ aside{
 
 /* celular */
 @media (max-width: 768px) {
+    .cartoes-1-aside {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1em;
+    }
 
-}
-
-/* pc */
-
-@media (min-width: 992px) {
-    .p-main-mensagem{
+    .h2-aside-mensagem {
+        width: 100%;
         text-align: center;
-        margin-left: 10em;
-        margin-right: 10em;
+    }
+
+    .box-card {
+        max-width: 100%;
+        width: 100%;
+        margin: 1em 0;
+    }
+
+    .card-img-top {
+        max-width: 100%; 
+        height: auto; 
     }
 }
+
+@media (min-width: 769px) {
+    .box-card {
+        max-width: 38%; /* Defina a largura máxima da caixa */
+        margin: 1em auto; /* Centralize a caixa horizontalmente */
+    }
+
+    .card-img-top {
+        max-width: 100%; /* Ajuste a imagem para a largura total do cartão */
+        height: auto; /* Mantenha a proporção */
+    }
+}
+
